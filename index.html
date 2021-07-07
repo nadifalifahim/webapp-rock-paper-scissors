@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="bg">
+      <div class="scoreboard">
+        <span>
+          <p id="user" class="idname">user</p>
+          <p id="playerscore">0</p>
+          <p>:</p>
+          <p id="computerscore">0</p>
+          <p id="comp" class="idname">comp</p>
+        </span>
+      </div>
+      <div class="result">
+        <p id="resultText">
+          New Match <br />
+          Make Your Move &#9996;
+        </p>
+      </div>
+      <div class="selectItem">
+        <div class="selection">
+          <img
+            src="img/rock.png"
+            alt="rock Image"
+            class="selectionImage"
+            id="rock"
+          />
+        </div>
+        <div class="selection">
+          <img
+            src="img/paper.png"
+            alt="paper Image"
+            class="selectionImage"
+            id="paper"
+          />
+        </div>
+        <div class="selection">
+          <img
+            src="img/scissors.png"
+            alt="scissors Image"
+            class="selectionImage"
+            id="scissors"
+          />
+        </div>
+      </div>
+      <div>
+        <button class="button" onclick="StartGame()">Restart Game</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+}
+body {
+  background-color: rgb(35, 7, 63, 160);
+}
+
+.bg {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: aliceblue;
+}
+
+header > h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  padding: 20px 0pc;
+  color: rgb(35, 7, 63, 160);
+}
+
+.scoreboard {
+  border: 3px solid white;
+  margin: 50px auto;
+  width: 18%;
+  min-width: 250px;
+}
+
+.scoreboard > span {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+.scoreboard > span > p {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  padding: 0px 5px;
+}
+
+.scoreboard > span > .idname {
+  font-size: 12px;
+  color: white;
+  background-color: crimson;
+}
+
+.result > p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+}
+.selectItem {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+}
+
+.selection{
+  margin: 50px 10px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.selectionImage {
+  width: 80%;
+  min-width: 120px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.button {
+  background-color: #008CBA;; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: none;
+}
